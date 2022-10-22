@@ -21,6 +21,10 @@ async function handleRequest(request: Request): Promise<Response> {
       },
     });
   }
+  if (pathname.startsWith("/favicon.ico")) {
+    const file = await Deno.readFile("./favicon.ico");
+    return new Response(file, {});
+  }
 
   return new Response(
     new TextEncoder().encode(page),
