@@ -1,19 +1,6 @@
 {
   "version": "2",
   "remote": {
-    "https://deno.land/std@0.149.0/async/abortable.ts": "87aa7230be8360c24ad437212311c9e8d4328854baec27b4c7abb26e85515c06",
-    "https://deno.land/std@0.149.0/async/deadline.ts": "48ac998d7564969f3e6ec6b6f9bf0217ebd00239b1b2292feba61272d5dd58d0",
-    "https://deno.land/std@0.149.0/async/debounce.ts": "564273ef242bcfcda19a439132f940db8694173abffc159ea34f07d18fc42620",
-    "https://deno.land/std@0.149.0/async/deferred.ts": "bc18e28108252c9f67dfca2bbc4587c3cbf3aeb6e155f8c864ca8ecff992b98a",
-    "https://deno.land/std@0.149.0/async/delay.ts": "cbbdf1c87d1aed8edc7bae13592fb3e27e3106e0748f089c263390d4f49e5f6c",
-    "https://deno.land/std@0.149.0/async/mod.ts": "9852cd8ed897ab2d41a8fbee611d574e97898327db5c19d9d58e41126473f02c",
-    "https://deno.land/std@0.149.0/async/mux_async_iterator.ts": "5b4aca6781ad0f2e19ccdf1d1a1c092ccd3e00d52050d9c27c772658c8367256",
-    "https://deno.land/std@0.149.0/async/pool.ts": "ef9eb97b388543acbf0ac32647121e4dbe629236899586c4d4311a8770fbb239",
-    "https://deno.land/std@0.149.0/async/tee.ts": "bcfae0017ebb718cf4eef9e2420e8675d91cb1bcc0ed9b668681af6e6caad846",
-    "https://deno.land/std@0.149.0/http/server.ts": "0b0a9f3abfcfecead944b31ee9098a0c11a59b0495bf873ee200eb80e7441483",
-    "https://deno.land/std@0.150.0/datetime/formatter.ts": "7c8e6d16a0950f400aef41b9f1eb9168249869776ec520265dfda785d746589e",
-    "https://deno.land/std@0.150.0/datetime/mod.ts": "28cdfd81f4e02696e2663807234e857cb08bb13f5573db862c7cd4a6287e2bde",
-    "https://deno.land/std@0.150.0/datetime/tokenizer.ts": "7381e28f6ab51cb504c7e132be31773d73ef2f3e1e50a812736962b9df1e8c47",
     "https://deno.land/std@0.166.0/async/abortable.ts": "87aa7230be8360c24ad437212311c9e8d4328854baec27b4c7abb26e85515c06",
     "https://deno.land/std@0.166.0/async/deadline.ts": "48ac998d7564969f3e6ec6b6f9bf0217ebd00239b1b2292feba61272d5dd58d0",
     "https://deno.land/std@0.166.0/async/debounce.ts": "dc8b92d4a4fe7eac32c924f2b8d3e62112530db70cadce27042689d82970b350",
@@ -87,16 +74,6 @@
     "https://raw.githubusercontent.com/brendantang/routing-framework/e8ac48593b3bf60a19c68146b6847584ef12a4b4/mod.ts": "28230f8193a1dc7a9a2c5d00505724e737f03f059246a977ef30e2e4e902ff89",
     "https://raw.githubusercontent.com/brendantang/routing-framework/e8ac48593b3bf60a19c68146b6847584ef12a4b4/render/json.ts": "89292d7bf6ab5be93c301c0b4f34bde69d8dca21bc3043758c9eea764c68a509",
     "https://raw.githubusercontent.com/brendantang/routing-framework/e8ac48593b3bf60a19c68146b6847584ef12a4b4/render/static.ts": "9d7dd8ecb3943254256d4c7e029e75f3c247a2f2e85df5505de95974d2589492",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/e8ac48593b3bf60a19c68146b6847584ef12a4b4/serve.ts": "50aad18b4a0edc0c95ecfa90088dd258890a5e1901d327b315dc14cffa0d3246",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/deps.ts": "2b913ef578bd5f0cff222b6515aed8b72b508874174b0dbb12a0100837441fb1",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/middleware/basicAuth.ts": "6f081fab4244cc8c12577b58135e1d96b434f3ccc3aa2615d88092b68ebc176e",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/middleware/logger.ts": "1d68de069e323c03fac195fa4233ad9ec22c0bb1206671cf3cccb2bade54118c",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/middleware/methods.ts": "3034294951c5b0b45c0b68299ae3f05ecc0b8f5dfaf6d26a7c609ad9efd4291d",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/middleware/middleware.ts": "aa4e104ac9938e0cc1f77edee8df35dbc88bf6def41ec55a54e3d863e47a9ae8",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/middleware/responseTimeout.ts": "d62f1963904f7d3251b14ac77c261a95fa2d977f255e7152a8f9933d2e20d0d1",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/mod.ts": "222fdab199ba884cd4f5fabe5b97ece18569373512c23e6eafa24efc7e4ac99b",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/render/json.ts": "89292d7bf6ab5be93c301c0b4f34bde69d8dca21bc3043758c9eea764c68a509",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/render/static.ts": "98a7cef44984da2cc4dd61c5f043f113dc816063dcc17f97e5e61d86292f1b25",
-    "https://raw.githubusercontent.com/brendantang/routing-framework/main/serve.ts": "79f80cb796ad56fcb17b5446d9283a05ce23bf677432f099a56f83578ce696d3"
+    "https://raw.githubusercontent.com/brendantang/routing-framework/e8ac48593b3bf60a19c68146b6847584ef12a4b4/serve.ts": "50aad18b4a0edc0c95ecfa90088dd258890a5e1901d327b315dc14cffa0d3246"
   }
 }
