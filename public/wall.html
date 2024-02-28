@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      da wall
+    </title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/> 
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      a {
+        color: inherit;
+      }
+    </style>
+    <script type="module" src="/wall_client.js"></script>
+  </head>
+
+  <body class="ph4 sans-serif bg-white dark-green flex items-center flex-column">
+    <main class="mw6 mv5">
+      <a href="/" class="link b">
+      back
+      </a> 
+
+      <div class="mt5">
+        <h1>da wall</h1>
+      
+        <p>Anyone can post on my wall, but <b>also anyone can delete any post</b>, even someone else's.</p>
+        <p>Say something that's nice or delete something that isn't nice :)</p>
+        <hr />
+
+        <form method="POST" class="flex flex-column pa3">
+          <input type="text" name="name" placeholder="your name" class="mb2">
+          </input>
+          <textarea name="message" class="mb2"></textarea>
+          <input type="submit">
+          </input>
+        </form>
+
+        <div id="entries">
+          loading posts...
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
