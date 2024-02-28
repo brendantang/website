@@ -16,14 +16,13 @@ const wall = handleMethods(
 
       const name = data.get("name")
       const message = data.get("message")
-      const time = Date()
-      const id = crypto.randomUUID()
+      const time = Date.now()
 
       const entry = {name, message, time}
 
       const db = await Deno.openKv()
 
-      const result = await db.set(["wall_messages", id], entry)
+      const result = await db.set(["wall_messages", time], entry)
       console.log(result)
 
       return Response.redirect(req.url)
