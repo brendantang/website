@@ -16,30 +16,31 @@
     <script type="module" src="/wall_client.js"></script>
   </head>
 
-  <body class="ph4 sans-serif bg-white dark-green flex items-center flex-column">
+  <body class="ph4 sans-serif bg-white black flex items-center flex-column">
     <main class="mw6 mv5">
-      <a href="/" class="link b">
+      <a href="/" class="link b dark-green">
       back
       </a> 
 
-      <div class="mt5">
+      <div class="mt5 ">
         <h1>da wall</h1>
       
         <p>Anyone can post on my wall, but <b>also anyone can delete any post</b>, even someone else's.</p>
         <p>Say something that's nice or delete something that isn't nice :)</p>
-        <hr />
 
-        <form method="POST" class="flex flex-column pa3">
-          <input type="text" name="name" placeholder="your name" class="mb2">
-          </input>
-          <textarea name="message" class="mb2"></textarea>
-          <input type="submit">
-          </input>
-        </form>
-
-        <div id="entries">
-          loading posts...
-
+        <div class="pa2">
+          <form method="POST" class="flex flex-column items-center pa3 mb3">
+            <h2>say something?</h2>
+            <div class="w5 flex flex-column">
+            <input type="text" name="name" placeholder="your name" class="mb2">
+            </input>
+            <textarea name="message" class="mb2 h3"></textarea>
+            </div>
+            <input type="submit">
+            </input>
+          </form> 
+          <div id="entries" class="pt3">
+          </div>
         </div>
       </div>
     </main>
